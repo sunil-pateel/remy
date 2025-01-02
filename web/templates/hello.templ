@@ -1,0 +1,9 @@
+package templates
+
+import "github.com/sunil-pateel/personal-website/web/templates/components"
+
+
+templ Hello(name string) {
+    <div>You are the best person in the world { name }</div>
+    @components.TestComponent()
+}
